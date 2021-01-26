@@ -1,0 +1,492 @@
+/*navbar*/
+.navbar{
+	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.navbar img{
+	width: 80px; 
+}
+
+.navbar-bg{
+	background-color: white;
+}
+
+.navbar-brand, .nav-link{
+	color: grey !important;
+	font-weight: bold;
+}
+
+/*carousel*/
+.d-block{
+	height: 200px;
+}
+
+.d-none h4{
+	color: white;
+/*	-webkit-text-stroke: 1px black;
+	text-shadow: 0 2px 0 black, 2px 0 0 black;*/
+}
+
+.d-none h2{
+	color: white;
+	/*text-shadow: 0 2px 0 black, 2px 0 0 black;*/
+}
+
+
+/*general*/
+.to-top{
+	font-size: 50px;
+	text-decoration: none;
+	color: rgba(0,0,0,0.5);
+	position: fixed;
+	bottom: 10px;
+	left: 20px;
+	cursor: pointer;
+	display:none;
+}
+
+ 
+/*konten*/
+.judul{
+	font-size: 23px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.card{
+	position: relative;
+}
+
+.card-login{
+	margin-top: 100px ;
+}
+
+.card-badge{
+	position: absolute;
+	right: 0;
+	width: 80px;
+}
+
+.card-img-top{
+	max-height: 250px;
+}
+
+.tombol{
+	text-transform: uppercase;
+	border-radius: 20px !important;
+	font-size: 12px !important;
+	margin-top: -10px;
+}
+
+.card-title{
+	text-transform: uppercase;
+}
+
+.diskon{
+	position: absolute;
+	right: 15px;
+	margin-top: 7px;
+	z-index: 1;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+.harga{
+	font-size: 16px;
+	font-weight: bold;
+	color: #e22b6b;
+}
+
+.harga-coret{
+	position: absolute;
+	right: 20px;
+	bottom: 45px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #7b90b2;
+	text-decoration: line-through;	
+}
+
+.mepo{
+	margin-top: -15px;
+}
+
+.text-muted{
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.box-tgl{
+	background-color: green;
+	margin-right: 10px;
+}
+
+.mail{
+	position: fixed;
+	right: 2%;
+	bottom: 4%;
+	z-index: 1;
+}
+
+.mail img{
+	width: 60px;
+	height: 60px;
+}
+
+.mail img:hover{
+	opacity: 0.8;
+}
+/*halaman promo*/
+.kosong{
+	width: 100%;
+	height: 150px;
+	background-color: rgba(0,0,0,0.1); 
+}
+
+.kosong p{
+	font-size: 20px;
+	line-height: 150px;
+}
+/* space */
+.space{
+	background-color: #1560d8;
+	height: 75px;
+	width: 100%;
+}
+
+.space-link{
+	background-color: rgba(0,0,0,0.1);
+	height: 75px;
+	margin-top: -5px;
+}
+
+.space-link p{
+	font-size: 10px;
+	color: white;
+	margin-top: 5px;
+}
+
+.space-link img{
+	width: 30px;
+}
+
+
+/* footer */
+
+.footer{
+	margin-top: 70px;
+}
+
+.footer p{
+	font-size: 14px;
+}
+
+
+.img-footer{
+	width: 100px;
+	margin: auto;
+}
+
+.list-img-footer{
+	width: 30px;
+	height: 30px;
+}
+
+.list-img-footer-bank{
+	width: 60px;
+	margin: auto;
+}
+
+.img-rek{
+	width: 80px;
+}
+
+
+.footer-text{
+	margin-top: -15px;
+}
+
+.gradasi hr{
+	border-top: 2px solid white;
+}
+
+.footer hr{
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+/* halaman info */
+.cover{
+	width: 100%;
+	height: 400px;
+}
+
+.img_cover{
+	width: 90%;
+	height: 100%;
+}
+
+
+.tujuan{
+	font-size: 28px;
+	text-transform: uppercase;
+}
+
+.box-tanggal{
+	margin-top: 10px;
+	height: auto;
+}
+
+section{
+	position: relative;
+}
+
+.list_tanggal{
+	margin: auto;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+.list_tanggal p{
+	font-size: 14px;
+	color: blue;
+	font-weight: bold;
+}
+
+.keterangan {
+	margin-top: 10px;
+	width: 100%;
+	padding: 1%;
+	height: auto;
+}
+
+.text-keterangan{
+	font-weight: bold;
+	color: blue;
+	font-size: 18px;
+}
+
+/*login*/
+.login-alert{
+	width: 25rem;
+	margin-top: 30px;
+	margin-bottom: -35px;
+	position: absolute;
+}
+
+
+/*daftar*/
+.form_error{
+	margin-top: 2px;
+	color: red;
+}
+/*testimoni*/
+
+.card-testi{
+	margin-top: 10px;
+}
+
+.komentar{
+	font-size: 14px;
+	margin-top: -10px;
+}
+
+.penulis{
+	font-size: 12px;
+	color: #58657a;
+	font-style: italic;
+	text-transform: capitalize;
+	margin-bottom: -17px;
+}
+
+.text-testimoni{
+	font-size: 22px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+@media (min-width: 768px){
+	.card-badge{
+		position: absolute;
+		right: 0;
+		width: 40px;
+	}
+	.card-img-top{
+		height: 150px;
+	}
+	.card-title{
+		font-size: 14px;
+	}
+	.total_keberangkatan{
+		margin-top: -7px;
+		font-size: 14px;
+	}
+	.mepo{
+		font-size: 12px;
+	}
+	.diskon{
+		position: absolute;
+		right: 3px;
+		margin-top: 1px;
+		z-index: 1;
+		font-size: 13px;
+	}
+
+	/*halaman info*/
+	.keterangan{
+		margin-top: 45px;
+	}
+}
+
+
+
+
+/*desktop*/
+@media (min-width: 992px){
+	
+	/*navbar*/
+
+	.navbar{
+		min-height: 100px;
+		color: black !important;
+	}
+
+	.navbar img{
+		width: auto;
+	}
+
+	.nav-link:hover{
+		border-bottom: 3px solid #189089;
+		margin-bottom: -3px;
+	}
+
+	.navbar li{
+		margin-right: 20px;
+	}
+
+	/*carousel*/
+	.d-block{
+		height: 370px;
+	}
+	 
+
+	/*konten*/
+	.judul{
+		font-size: 35px;
+		font-weight: bold;
+	}
+
+	.card-badge{
+		position: absolute;
+		right: 0;
+		width: 60px;
+	}
+
+	.diskon{
+		position: absolute;
+		right: 10px;
+		margin-top: 4px;
+		z-index: 1;
+		font-size: 16px;
+		font-weight: bold;
+
+	}
+
+
+	.mail img{
+		width: 90px;
+		height: 90px;
+	}
+
+	.space{
+		height: 100px;
+		width: 100%;
+	}
+
+	.space-link{
+		width: 100%;
+		height: 100px;
+		display: inline-block;
+		overflow: hidden;
+		margin: 0;
+
+	}
+
+	.space-link p{
+		font-size: 12px;
+	}
+
+	.space-link img{
+		width: 50px;
+	}
+
+	.card-img-top{
+		height: 300px;
+	}
+	.harga{
+		font-size: 15px;
+		font-weight: bold;
+		color: #e22b6b;
+	}
+
+	/* halaman info*/
+	.info_img{
+		height: 400px;
+	}
+	.box-tanggal{
+		height: 100px;
+	}
+
+	.list_tanggal{
+		background-color: white;
+	}
+
+	.list_tanggal small{
+		color: grey;
+	}
+
+	.text-tanggal{
+		margin-bottom: 2px;
+	}
+
+	.keterangan{
+		font-size: 14px;
+		margin-top: 20px;
+	}
+
+	.card-login{
+		margin-top: 110px ;
+	}
+
+	/*halaman testimoni*/
+	.text-testimoni{
+		font-size: 28px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+
+	}
+
+	.testimoni{
+		min-height: 500px;
+	}
+
+	.komentar{
+		font-size: 15px;
+	}
+
+	.penulis{
+		margin-top: -10px;
+		font-size: 14px !important;
+	}
+
+	.card-testi{
+		margin-top: 5px;
+	}
+
+	/*halaman checkout*/
+	.card-checkout{
+		width: 
+	}
+
+}

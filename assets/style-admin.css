@@ -1,0 +1,101 @@
+body{
+	font-family: 'Slabo 27px', serif;
+}
+
+/*sidebar*/
+
+/*login*/
+
+.nav-link:hover{
+	background-color: #1cdbab;
+}
+
+#menu-toggle{
+	margin-bottom: 10px;
+}
+
+.card-login{
+	margin-top: 100px ;
+}
+
+
+/*admin data perjalanan*/
+.group{
+	margin-bottom: 10px;
+}
+
+.tambah-data{
+	margin-bottom: 10px;
+}
+
+.label{
+	background-color: blue;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.img-data{
+	width: 50px;
+	height: 50px;
+}
+
+.img-edit{
+	width: 120px;
+	height: 120px;
+	margin-top: 15px;
+}
+
+.form-margin{
+	margin-top: 5px;
+}
+
+.data_perjalanan{
+	font-size: 13px;
+}
+
+/*halaman order*/
+.order{
+	font-size: 14px;
+}
+
+.table > tbody > tr > td {
+	vertical-align: middle;
+}
+
+.alert{
+	margin-top: 10px;
+	position: absolute;
+}
+
+.terpilih{
+	margin-left: 10px;
+}
+
+.hapus-alert{
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.hitung{
+	font-weight: bold;
+}
+
+.kelompok{
+	font-size: 15px;
+}
+
+.member{
+	font-size: 15px;
+}
+
+/*halaman slider*/
+.slider{
+	width: 200px;
+}
+
+/*umum*/
+.alert{
+	width: 100%;
+	position: relative;
+}
